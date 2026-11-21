@@ -797,6 +797,9 @@ extern const file_hint_t file_hint_qdf;
 #if !defined(SINGLE_FORMAT) || defined(SINGLE_FORMAT_qkt)
 extern const file_hint_t file_hint_qkt;
 #endif
+#if !defined(SINGLE_FORMAT) || defined(SINGLE_FORMAT_qoi)
+extern const file_hint_t file_hint_qoi;
+#endif
 #if !defined(SINGLE_FORMAT) || defined(SINGLE_FORMAT_qxd)
 extern const file_hint_t file_hint_qxd;
 #endif
@@ -1856,6 +1859,9 @@ file_enable_t array_file_enable[]=
 #endif
 #if !defined(SINGLE_FORMAT) || defined(SINGLE_FORMAT_qkt)
   { .enable=0, .file_hint=&file_hint_qkt  },
+#endif
+#if !defined(SINGLE_FORMAT) || defined(SINGLE_FORMAT_qoi)
+  { .enable=0, .file_hint=&file_hint_qoi  },
 #endif
 #if !defined(SINGLE_FORMAT) || defined(SINGLE_FORMAT_qxd)
   { .enable=0, .file_hint=&file_hint_qxd  },

@@ -1,0 +1,17 @@
+{
+  "root": "/home/dev/feedback/uid30829",
+  "B": "/home/dev/feedback/uid30829",
+  "sha": "d3a9c10acf60c0998f36c8949e6dba7859433cff",
+  "wslDistro": "Ubuntu-26.04",
+  "source": {
+    "owner": "cgsecurity",
+    "repo": "testdisk",
+    "sha": "d3a9c10acf60c0998f36c8949e6dba7859433cff"
+  },
+  "fork": {
+    "owner": "Rrr119",
+    "repo": "testdisk",
+    "cloneUrl": "https://github.com/Rrr119/testdisk.git"
+  },
+  "at": "2026-11-21T04:11:01.860Z"
+}
